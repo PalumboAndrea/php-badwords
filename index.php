@@ -7,14 +7,13 @@
     <title>php-badwords</title>
 </head>
 <body>
-    <h1>Inserisci qui una frase!</h1>
+    <h1>Inserisci qui una frase e una parola da censurare!</h1>
 
     <form action="data.php" method="POST">
         <input type="text" name="phrase" placeholder="Inserisci una frase">
         <input type="text" name="censured" placeholder="Parola da censurare">
         <button type="submit">Invia</button>
-
-
     </form>
+    
 </body>
 </html>
